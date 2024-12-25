@@ -7,11 +7,8 @@ This project demonstrates a fully automated ETL pipeline designed to extract, tr
 - **ETL Workflow Automation**: Automates the extraction, transformation, and loading processes with Apache Airflow.
 - **Containerized Environment**: Uses a custom Docker image with Apache Airflow and PostgreSQL pre-configured for seamless deployment.
 - **Scalable and Fault-tolerant**: Designed to handle continuous data ingestion and adapt to future data source integrations.
-- **Optimized Database Design**: Stores data in PostgreSQL using an efficient schema for querying and analysis.
-- **Data Quality Checks**: Ensures the accuracy and reliability of ingested data through validation steps.
 
 ## 🏗️ Architecture
-![Pipeline Architecture](path-to-your-architecture-diagram.png)
 
 1. **Data Extraction**: The pipeline fetches data from the weather API at regular intervals.
 2. **Data Transformation**: Applies cleaning and transformation logic to standardize the data.
@@ -23,17 +20,9 @@ This project demonstrates a fully automated ETL pipeline designed to extract, tr
 - **Workflow Orchestration**: Apache Airflow
 - **Database**: PostgreSQL
 - **Containerization**: Docker
-- **API**: Weather API (e.g., OpenWeatherMap or similar)
+- **API**: Weather API
 
 ## 🚀 How to Run the Project
-### Prerequisites
-1. Install [Docker](https://www.docker.com/get-started).
-2. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/weather-etl-pipeline.git
-   cd weather-etl-pipeline
-   ```
-
 ### Steps
 1. **Build the Docker Image**:
    ```bash
